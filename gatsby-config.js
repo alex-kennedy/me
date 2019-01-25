@@ -11,7 +11,7 @@ module.exports = {
       options: {
         name: 'alex-kennedy',
         short_name: 'alex',
-        start_url: '/',
+        start_url: '/me/',
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
