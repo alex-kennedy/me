@@ -80,7 +80,7 @@ class HomeIndex extends React.Component {
                     </section>
 
                     <section>
-                        <h2>Projects</h2>
+                        <h1>Projects</h1>
 
                         <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description, liveLink, gitLink }) => ({
                             src,
@@ -106,7 +106,7 @@ class HomeIndex extends React.Component {
                         Reciprocal Exchange Program - Physics
 
                         <br /><br />
-                        <h2>Honours</h2>
+                        <h3>Honours and Awards</h3>
                         <p>University of Auckland Scholarship - full tuition.</p>
                         <p>Named on Engineering Dean's Honours List each year eligible.</p>
 
@@ -118,7 +118,6 @@ class HomeIndex extends React.Component {
                             <li>Advanced Mechanics and Mathematical Modelling (2016)</li>
                         </ul>
 
-                        
                     </section>
 
                     <section id="experience">
@@ -147,9 +146,10 @@ class HomeIndex extends React.Component {
                     <section>
                         <h1>Culture</h1>
                         <h2>Auckland Engineering Revue</h2>
-                        <h4>2019 – Executive Director<br />
-                        2018 – Assistant Director<br />
-                        2017 – Lead Role</h4>
+                        <h4>2019 – Executive Director</h4>
+                        <h4>2018 – Assistant Director</h4>
+                        <h4>2019 – Lead Role</h4>
+                        
                         <p>The Engineering Revue is an annual stage show redefining what it means to be an Engineer. I lead a team of 100+ students. Our goal is to break the mould, and prove our faculty is a home for all. </p>
 
                         <h2>UC Berkeley BareStage</h2>
