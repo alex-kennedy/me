@@ -20,6 +20,13 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     // 'gatsby-plugin-offline'
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-117981617-2",
+        anonymize: true,
+      },
+    }
   ],
   pathPrefix: `/me`
 }
