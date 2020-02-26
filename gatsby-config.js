@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Alex Kennedy",
-    author: "Alex Kennedy",
-    description: "My personal site. "
+    title: 'Alex Kennedy',
+    author: 'Alex Kennedy',
+    description: 'My personal site.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -19,14 +19,13 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    // 'gatsby-plugin-offline'
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-117981617-2",
+        trackingId: 'UA-117981617-2',
         anonymize: true,
       },
-    }
+    },
   ],
-  pathPrefix: `/me`
+  pathPrefix: `/me`,
 }

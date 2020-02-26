@@ -1,4 +1,5 @@
 # alexk.nz
+
 Personal site at alexk.nz
 
 ## Development
@@ -10,6 +11,7 @@ gatsby develop
 ```
 
 To deploy changes, use:
+
 ```
 npm run deploy
 ```
