@@ -24,7 +24,7 @@ const DEFAULT_IMAGES = [
     thumbnail: proj01,
     caption: 'Solar System',
     description:
-      'Emulates celestial bodies. It is not yet complete, but I plan it to display the live(ish) locations of the hundreds of thousands of asteroids in our Solar System.',
+      'Emulates celestial bodies. It is not yet complete, but I plan to display the live(ish) locations of the hundreds of thousands of asteroids in our Solar System.',
     liveLink: 'https://alexk.nz/solar-system',
     gitLink: 'https://github.com/alex-kennedy/solar-system',
   },
@@ -145,17 +145,34 @@ class HomeIndex extends React.Component {
             <h3>Honours and Awards</h3>
             <p>University of Auckland Scholarship - full tuition.</p>
             <p>Named on Engineering Dean's Honours List each year eligible.</p>
+            <p>Department of Physics Scholarship (2020)</p>
+            <p>Cecil M Segedin Prize In Engineering Science (2020)</p>
             <h4>Top in Course Awards</h4>
             <ul>
-              <li>Innovating for a Knowledge Society (2018)</li>
-              <li>Frontiers of Physics (2017)</li>
-              <li>Introduction to Operations Research (2017)</li>
-              <li>Advanced Mechanics and Mathematical Modelling (2016)</li>
+              <li>
+                Integer and Multi-objective Optimisation (ENGSCI 761, 2019)
+              </li>
+              <li>Innovating for a Knowledge Society (SCIGEN 201, 2018)</li>
+              <li>Frontiers of Physics (PHYSICS 245, 2017)</li>
+              <li>Introduction to Operations Research (ENGSCI 255, 2017)</li>
+              <li>
+                Advanced Mechanics and Mathematical Modelling (ENGGEN 150, 2016)
+              </li>
             </ul>
           </section>
 
           <section id="experience">
             <h1>Experience</h1>
+
+            <h2>Google - Software Engineering Intern</h2>
+            <h4>Nov 2019 - Feb 2020</h4>
+
+            <p>
+              Created an internal visualisation tool for network demand
+              planning.
+            </p>
+
+            <a href="https://google.com">google.com</a>
 
             <h2>Quantiful - Junior Data Scientist</h2>
             <h4>Nov 2017 - Aug 2018</h4>
@@ -166,9 +183,11 @@ class HomeIndex extends React.Component {
               interface, machine learning pipeline, analytics platform and data
               engineering back-end.{' '}
             </p>
+            <a href="https://quantiful.ai">quantifu.ai</a>
 
             <h2>HD Geotechnical, Hamilton – Junior Engineering Technician</h2>
             <h4>Nov 2016 – Feb 2017</h4>
+            <a href="https://hdgeo.co.nz">hdgeo.co.nz</a>
           </section>
 
           <section>

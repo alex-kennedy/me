@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
-import Lightbox from 'react-images'
 
 class Gallery extends Component {
   constructor() {
@@ -59,12 +58,8 @@ class Gallery extends Component {
     const gallery = images.map((obj, i) => {
       return (
         <article className="6u 12u$(xsmall) work-item" key={i}>
-          <a
-            className="image fit thumb"
-            href={obj.liveLink}
-            // onClick={(e) => this.openLightbox(i, e)}
-          >
-            <img src={obj.thumbnail} />
+          <a className="image fit thumb" href={obj.liveLink}>
+            <img src={obj.thumbnail} alt="" />
           </a>
 
           <h3>{obj.caption}</h3>
@@ -80,22 +75,7 @@ class Gallery extends Component {
     return <div className="row">{gallery}</div>
   }
   render() {
-    return (
-      <div>
-        {this.renderGallery()}
-        {/* <Lightbox
-                    backdropClosesModal={true}
-                    currentImage={this.state.currentImage}
-                    images={this.props.images}
-                    isOpen={this.state.lightboxIsOpen}
-                    onClickImage={this.handleClickImage}
-                    onClickNext={this.gotoNext}
-                    onClickPrev={this.gotoPrevious}
-                    onClickThumbnail={this.gotoImage}
-                    onClose={this.closeLightbox}
-                /> */}
-      </div>
-    )
+    return <div>{this.renderGallery()}</div>
   }
 }
 
