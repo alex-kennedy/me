@@ -239,7 +239,7 @@ class HomeIndex extends React.Component {
             <h4>2020 – Plot Director</h4>
             <h4>2019 – Executive Director</h4>
             <h4>2018 – Assistant Director</h4>
-            <h4>2016 – Lead Role</h4>
+            <h4>2017 – Lead Role</h4>
 
             <p>
               The Engineering Revue is an annual stage show redefining what it
