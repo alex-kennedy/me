@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Gallery from '../components/Gallery'
 
-import proj01 from '../assets/images/projects/solar-system.png'
+import proj01 from '../assets/images/projects/solar-system-updated.png'
 import proj02 from '../assets/images/projects/quantum-hydrogen.png'
 
 const DEFAULT_IMAGES = [
@@ -24,7 +24,7 @@ const DEFAULT_IMAGES = [
     thumbnail: proj01,
     caption: 'Solar System',
     description:
-      'Emulates celestial bodies. It is not yet complete, but I plan to display the live(ish) locations of the hundreds of thousands of asteroids in our Solar System.',
+      'The live (approximate) locations of planets and hundreds of thousands of asteroids in the Solar System. Does a bunch of physics on the client-side with some Web Assembly via Rust.',
     liveLink: 'https://alexk.nz/solar-system',
     gitLink: 'https://github.com/alex-kennedy/solar-system',
   },
@@ -90,6 +90,32 @@ class HomeIndex extends React.Component {
           <section id="one">
             <header className="major">
               <h2>I am Alex Kennedy. </h2>
+              <ul className="icons">
+                <li>
+                  <a
+                    href="https://github.com/alex-kennedy"
+                    className="icon fa-github"
+                  >
+                    <span className="label">Github</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://nz.linkedin.com/in/alex-kennedy"
+                    className="icon fa-linkedin"
+                  >
+                    <span className="label">LinkedIn</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="mailto:apkennedy@me.com"
+                    className="icon fa-envelope-o"
+                  >
+                    <span className="label">Email</span>
+                  </a>
+                </li>
+              </ul>
             </header>
             <p>
               I am a student, actor and proud Physics nerd. My home is the
@@ -149,6 +175,8 @@ class HomeIndex extends React.Component {
             <p>Cecil M Segedin Prize In Engineering Science (2020)</p>
             <h4>Top in Course Awards</h4>
             <ul>
+              <li>Experimental Physics (PHYSICS 390, 2020)</li>
+              <li>World Archaeology (ANTHRO 101, 2020)</li>
               <li>
                 Integer and Multi-objective Optimisation (ENGSCI 761, 2019)
               </li>
@@ -208,14 +236,18 @@ class HomeIndex extends React.Component {
           <section>
             <h1>Culture</h1>
             <h2>Auckland Engineering Revue</h2>
+            <h4>2020 – Plot Director</h4>
             <h4>2019 – Executive Director</h4>
             <h4>2018 – Assistant Director</h4>
-            <h4>2019 – Lead Role</h4>
+            <h4>2016 – Lead Role</h4>
 
             <p>
               The Engineering Revue is an annual stage show redefining what it
-              means to be an Engineer. I lead a team of 100+ students. Our goal
-              is to break the mould, and prove our faculty is a home for all.{' '}
+              means to be an Engineer. I helped lead our exceptional team of
+              nearly 100 students, who each year put on an original show of
+              sketches, dances, a main plot, videos, and band performances. Our
+              goal is to break the mould, and prove our faculty is a home for
+              all.{' '}
             </p>
 
             <h2>UC Berkeley BareStage</h2>
