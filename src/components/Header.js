@@ -8,9 +8,9 @@ class Header extends React.Component {
       <header id="header">
         <div className="inner">
           <h1>
-            <strong>I am Alex Kennedy</strong> <br />
-            Engineering and Physics student at the University of Auckland, New
-            Zealand.{' '}
+            <strong>I am Alex Kennedy</strong>
+            <br />
+            Software Engineer at Google
           </h1>
         </div>
         <Footer />

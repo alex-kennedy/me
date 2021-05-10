@@ -123,7 +123,7 @@ class HomeIndex extends React.Component {
               the day my dad grudgingly brought home our first computer, what
               can be done with one has captivated me ever since. I love
               exoplanets, the glare of stage lights, learning, talking, and
-              educating. If you want to talk to me, I'd love to hear from you!{' '}
+              educating.
             </p>
           </section>
 
@@ -173,7 +173,7 @@ class HomeIndex extends React.Component {
             <p>Named on Engineering Dean's Honours List each year eligible.</p>
             <p>Department of Physics Scholarship (2020)</p>
             <p>Cecil M Segedin Prize In Engineering Science (2020)</p>
-            <h4>Top in Course Awards</h4>
+            <h4>First in Course Awards</h4>
             <ul>
               <li>Experimental Physics (PHYSICS 390, 2020)</li>
               <li>World Archaeology (ANTHRO 101, 2020)</li>
@@ -191,6 +191,12 @@ class HomeIndex extends React.Component {
 
           <section id="experience">
             <h1>Experience</h1>
+            <h2>Google - Software Engineer, Site Reliability Engineering</h2>
+            <h4>Feb 2021 - Present</h4>
+            Google Cloud Storage.
+          </section>
+          <section id="internships">
+            <h1>Internships</h1>
 
             <h2>Google - Software Engineering Intern</h2>
             <h4>Nov 2019 - Feb 2020</h4>
@@ -252,7 +258,7 @@ class HomeIndex extends React.Component {
 
             <h2>UC Berkeley BareStage</h2>
             <h4>
-              2018 Production of Orwell's <i>1984</i>
+              2018 Production of George Orwell's <i>1984</i> - O'Brien
             </h4>
 
             <h2>UC Berkeley Theater4Charity</h2>
