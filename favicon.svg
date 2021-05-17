@@ -1,0 +1,37 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512">
+	<defs>
+		<linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+			<stop offset="35%" style="stop-color:#7E00DB;stop-opacity:1" />
+			<stop offset="65%" style="stop-color:#50efff;stop-opacity:1" />
+		</linearGradient>
+
+		<g id="Pentagram">
+			<g id="Arm" transform="translate(0,-0.324925)">
+				<path d="M 0,0 L 0,0.5 L 1,0 z"/>
+				<path d="M 0,0 L 0,-0.5 L 1,0 z" transform="rotate(-36,1,0)"/>
+			</g>
+			<use xlink:href="#Arm" transform="scale(-1,1)"/>
+			<use xlink:href="#Arm" transform="rotate(72,0,0)"/>
+			<use xlink:href="#Arm" transform="rotate(-72,0,0)"/>
+			<use xlink:href="#Arm" transform="rotate(-72,0,0) scale(-1,1)"/>
+		</g>
+	</defs>
+
+	<polygon points="0,512 86,426 512,512" fill="#750787" mask="url(#roundEdgeMask)"/>
+	<polygon points="85,427 170,343 512,512" fill="#004dff" mask="url(#roundEdgeMask)"/>
+	<polygon points="169,344 255.9,257 512,512" fill="#008026" mask="url(#roundEdgeMask)"/>
+	<polygon points="255,257 341.2,171.7 512,512" fill="#ffed00" mask="url(#roundEdgeMask)"/>
+	<polygon points="341,172 426.5,85.3 512,512" fill="#ffc800" mask="url(#roundEdgeMask)"/>
+	<polygon points="426,86 512,0 512,512" fill="#e40303" mask="url(#roundEdgeMask)"/>
+  
+	<mask id="roundEdgeMask">
+		<rect x="0" y="0" width="512" height="512" fill="white" rx="150" ry="150" />
+	</mask>
+
+	<polygon points="0,0 0,513 513,0" fill="#00247d" mask="url(#roundEdgeMask)"/>
+
+	<g id="star">
+		<use xlink:href="#Pentagram" fill="#ffffff" transform="translate(150,150) scale(136.2)"/>
+		<use xlink:href="#Pentagram" fill="#cc142b" transform="translate(150,150) scale(90)"/>
+	</g>
+</svg>
