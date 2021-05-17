@@ -127,6 +127,65 @@ class HomeIndex extends React.Component {
             </p>
           </section>
 
+          <section id="experience">
+            <h1>Experience</h1>
+            <h2>Google - Software Engineer</h2>
+            <h4>Feb 2021 - Present</h4>I am currently a Site Reliability
+            Engineer in the Google Cloud Storage team.
+          </section>
+
+          <section id="publications">
+            <h1>Publications</h1>
+            Kennedy, A., Nash, G., Rattenbury, N. J., and Kempa-Liehr, A. W.,
+            "Modelling the projected separation of microlensing events using
+            systematic time-series feature engineering",{' '}
+            <i>Astronomy and Computing</i>, vol. 35, 2021.{' '}
+            <a href="https://dx.doi.org/10.1016/j.ascom.2021.100460">
+              doi:10.1016/j.ascom.2021.100460.
+            </a>
+          </section>
+
+          <section id="education">
+            <h1>Education</h1>
+            <h2>University of Auckland</h2>
+            <h4>2016 - 2020</h4>
+            <p>
+              Bachelor of Engineering (Hons) - Engineering Science
+              <br />
+              <i>conjoint</i>
+              <br />
+              Bachelor of Science - Physics
+            </p>
+            <h2>University of California - Berkeley</h2>
+            <h4>Fall 2018</h4>
+            Reciprocal Exchange Program - Physics
+            <br />
+            <br />
+            <h3>Honours and Awards</h3>
+            <p>Senior Scholar Award in the Faculty of Science (2020)</p>
+            <p>Cecil M Segedin Prize In Engineering Science (2020)</p>
+            <p>Department of Physics Scholarship (2020)</p>
+            <p>Beca Part IV Engineering Award (2019)</p>
+            <p>University of Auckland Scholarship - full tuition (2016-2018)</p>
+            <p>Named on Engineering Dean's Honours List each year eligible.</p>
+            <h4>First in Course Awards</h4>
+            <ul>
+              <li>Particle Physics and Astrophysics (PHYSICS 356, 2020)</li>
+              <li>Engineering Science Design II (ENGSCI 363, 2020)</li>
+              <li>Experimental Physics (PHYSICS 390, 2020)</li>
+              <li>World Archaeology (ANTHRO 101, 2020)</li>
+              <li>
+                Integer and Multi-objective Optimisation (ENGSCI 761, 2019)
+              </li>
+              <li>Innovating for a Knowledge Society (SCIGEN 201, 2018)</li>
+              <li>Frontiers of Physics (PHYSICS 245, 2017)</li>
+              <li>Introduction to Operations Research (ENGSCI 255, 2017)</li>
+              <li>
+                Advanced Mechanics and Mathematical Modelling (ENGGEN 150, 2016)
+              </li>
+            </ul>
+          </section>
+
           <section>
             <h1>Projects</h1>
 
@@ -152,49 +211,6 @@ class HomeIndex extends React.Component {
             />
           </section>
 
-          <section id="education">
-            <h1>Education</h1>
-            <h2>University of Auckland</h2>
-            <h4>2016 - 2020</h4>
-            <p>
-              Bachelor of Engineering (Hons) - Engineering Science
-              <br />
-              <i>conjoint</i>
-              <br />
-              Bachelor of Science - Physics
-            </p>
-            <h2>University of California - Berkeley</h2>
-            <h4>Fall 2018</h4>
-            Reciprocal Exchange Program - Physics
-            <br />
-            <br />
-            <h3>Honours and Awards</h3>
-            <p>University of Auckland Scholarship - full tuition.</p>
-            <p>Named on Engineering Dean's Honours List each year eligible.</p>
-            <p>Department of Physics Scholarship (2020)</p>
-            <p>Cecil M Segedin Prize In Engineering Science (2020)</p>
-            <h4>First in Course Awards</h4>
-            <ul>
-              <li>Experimental Physics (PHYSICS 390, 2020)</li>
-              <li>World Archaeology (ANTHRO 101, 2020)</li>
-              <li>
-                Integer and Multi-objective Optimisation (ENGSCI 761, 2019)
-              </li>
-              <li>Innovating for a Knowledge Society (SCIGEN 201, 2018)</li>
-              <li>Frontiers of Physics (PHYSICS 245, 2017)</li>
-              <li>Introduction to Operations Research (ENGSCI 255, 2017)</li>
-              <li>
-                Advanced Mechanics and Mathematical Modelling (ENGGEN 150, 2016)
-              </li>
-            </ul>
-          </section>
-
-          <section id="experience">
-            <h1>Experience</h1>
-            <h2>Google - Software Engineer, Site Reliability Engineering</h2>
-            <h4>Feb 2021 - Present</h4>
-            Google Cloud Storage.
-          </section>
           <section id="internships">
             <h1>Internships</h1>
 
@@ -235,7 +251,7 @@ class HomeIndex extends React.Component {
             <h2>Dean’s Leadership Programme – Sir Colin Maiden Scholar 2017</h2>
             <p>
               A selective programme recognising and developing leadership skills
-              and potential.{' '}
+              and potential.
             </p>
           </section>
 
